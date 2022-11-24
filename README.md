@@ -1,4 +1,4 @@
-# ML-Agents-Knight-Dual
+# ML-Agents Knight Dual
  
  Knight Dual a tiny machine learning zero-player game based on the Unity ML-Agents framework. This is a hobby projekt for learning about RL and Deep Learning.
  
@@ -8,7 +8,7 @@
  
 ## Thanks ❤
  
- This project use the [KayKit Dungeon Pack](https://kaylousberg.itch.io/kaykit-dungeon) made by Kay Lousberg. Special thanks to him for the awesome assets.
+ This project build with the [KayKit Dungeon Pack](https://kaylousberg.itch.io/kaykit-dungeon) made by Kay Lousberg. Special thanks to him for the awesome assets.
  
 ## License
 
