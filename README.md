@@ -4,7 +4,7 @@
  
 ## How it works?
  
- Both knights are RL agents. They only know how to move in 4 direction and they are able to rotate. They can hold different weapons and the weapons rotate with the character. The main goal of the game to defeat the other knight agent by hitting it with the weapon a few time.
+ Both knights are RL agents. They only know how to move in 4 direction and they are able to rotate. They can hold different weapons and the weapons rotate with the character. The main goal of the game to defeat the other knight agent by hitting it with the weapon a few time. They also have a tiny shield for self-defense. If one of them hit the enemy then gets reward. If defeat the enemy then also gets reward. Reinforcement learning agents learn from the rewards.
  
 ## Thanks ❤
  
