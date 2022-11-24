@@ -1,7 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
-using Unity.MLAgents.Policies;
 
 public class AgentKnight : Agent
 {
@@ -13,12 +13,19 @@ public class AgentKnight : Agent
     [HideInInspector]
     public int currHP;
 
+    public Image hpBar;
+
+    [HideInInspector]
+    public Vector3 startPos;
+
     private Rigidbody rb;
 
     public override void Initialize()
     {
-        rb.GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         currHP = maxHP;
+
+        startPos = transform.position;
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -55,10 +62,9 @@ public class AgentKnight : Agent
         
     }
 
-
-
     public override void OnActionReceived(ActionBuffers actions)
     {
+
         var dirToGo = Vector3.zero;
         var rotateDir = Vector3.zero;
 
@@ -95,15 +101,27 @@ public class AgentKnight : Agent
                 rotateDir = transform.up * 1f;
                 break;
         }
+        
 
         transform.Rotate(rotateDir, Time.deltaTime * rotateAmount);
         rb.AddForce(dirToGo * moveSpeed, ForceMode.VelocityChange);
     }
 
-    public override void OnEpisodeBegin()
+    public void TakeDamage(int damageAmount)
     {
-        base.OnEpisodeBegin();
+        currHP -= damageAmount;
+
+        UpdateUI();
+
+        if (currHP <= 0)
+        {
+            GameObject.Find("GameManager").GetComponent<GameManager>().RoundOver(gameObject.name);
+        }
     }
 
+    public void UpdateUI()
+    {
+        hpBar.fillAmount = (float)currHP / (float)maxHP;
+    }
 
 }

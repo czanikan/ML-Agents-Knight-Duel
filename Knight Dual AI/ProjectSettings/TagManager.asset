@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Knight
+  - Weapon
   layers:
   - Default
   - TransparentFX
