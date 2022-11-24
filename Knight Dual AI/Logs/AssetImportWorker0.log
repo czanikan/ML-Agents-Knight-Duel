@@ -1,0 +1,2472 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'hu' Physical Memory: 16075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gob-boi/Documents/GitHub/ML-Agents-Knight-Dual/Knight Dual AI
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53895
+Successfully changed project path to: C:/Users/gob-boi/Documents/GitHub/ML-Agents-Knight-Dual/Knight Dual AI
+C:/Users/gob-boi/Documents/GitHub/ML-Agents-Knight-Dual/Knight Dual AI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 185.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gob-boi/Documents/GitHub/ML-Agents-Knight-Dual/Knight Dual AI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3993 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005306 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 216.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (590ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (216ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012394 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 210.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2271ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1897ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (976ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (21.1 MB). Loaded Objects now: 4425.
+Memory consumption went from 187.0 MB to 165.9 MB.
+Total: 22.616100 ms (FindLiveObjects: 2.958900 ms CreateObjectMapping: 0.379900 ms MarkObjects: 8.717100 ms  DeleteObjects: 10.548100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181560.648472 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Overview.png
+  artifactKey: Guid(d1b3c81912afd1e4f8a82a32ba99e095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Overview.png using Guid(d1b3c81912afd1e4f8a82a32ba99e095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb205454bf08efbf333cb0fd1e811c9') in 0.126794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models
+  artifactKey: Guid(54fb030a088abe242a0b21482948467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models using Guid(54fb030a088abe242a0b21482948467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8b2c6a9a6f5b5377a7f906ed05830d') in 0.008067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.878303 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx
+  artifactKey: Guid(bc33b60694ec91440889f2652b1aeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx using Guid(bc33b60694ec91440889f2652b1aeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea4e3616ab4a50e65eb4cc070f1ed36') in 0.015745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014298 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx/character_barbarian.fbx
+  artifactKey: Guid(3f1687d2d1bfdb249893cc555e48fb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx/character_barbarian.fbx using Guid(3f1687d2d1bfdb249893cc555e48fb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba6dd8060f7b9581465405e3b00840') in 0.495712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx/character_mage.fbx
+  artifactKey: Guid(57361768c49052d4fa640286d9b4d454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/Characters/fbx/character_mage.fbx using Guid(57361768c49052d4fa640286d9b4d454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985f1ea87057e27408043325ae086181') in 0.238683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.183584 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx
+  artifactKey: Guid(f95c8de3c8b4e004c9533ec53a811376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx using Guid(f95c8de3c8b4e004c9533ec53a811376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8e41a141181066d91c14596c6c2bbd') in 0.009468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034449 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/arrow.fbx
+  artifactKey: Guid(9c0eadf6c52dd1c47ad6d246ac998432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/arrow.fbx using Guid(9c0eadf6c52dd1c47ad6d246ac998432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effbd86f766f2f16251976ca36267542') in 0.059438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/banner.fbx
+  artifactKey: Guid(c03723fafea292742ae280e6d979a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/banner.fbx using Guid(c03723fafea292742ae280e6d979a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccd22fe273c6338539e4825ddcf22ca') in 0.070225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/pillar.fbx
+  artifactKey: Guid(0c333a40b326d28448d381d87f846511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/pillar.fbx using Guid(0c333a40b326d28448d381d87f846511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b06945eab3aad921a1aec4afc2807db') in 0.055628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/coin.fbx
+  artifactKey: Guid(e7a0c7a0154b6ea4cb06b6430c65578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/coin.fbx using Guid(e7a0c7a0154b6ea4cb06b6430c65578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fa6e41bdeca6f9d5fab0a2223aabed') in 0.048533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookD.fbx
+  artifactKey: Guid(d6a928adc547704469b345efb4d32932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookD.fbx using Guid(d6a928adc547704469b345efb4d32932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9f9259282c1fd5f5bfacfbe79bf81b') in 0.053277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/dagger_common.fbx
+  artifactKey: Guid(3edb96ae00ae8184a93e51541a34ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/dagger_common.fbx using Guid(3edb96ae00ae8184a93e51541a34ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ba20902ffa76dad6b3c8eb507f9bae') in 0.077467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chair.fbx
+  artifactKey: Guid(2a8c61152bf7e2d41a4853fa866788d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chair.fbx using Guid(2a8c61152bf7e2d41a4853fa866788d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58440e9eaf781112eea6232473c2864') in 0.049319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_woodRight.fbx
+  artifactKey: Guid(d34bfd4e759328a48ad76d4b5baf22c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_woodRight.fbx using Guid(d34bfd4e759328a48ad76d4b5baf22c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42de9bd6c4975bc2cbc42a06995e7861') in 0.039471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bucket.fbx
+  artifactKey: Guid(13114ecf983114e498346d96360e4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bucket.fbx using Guid(13114ecf983114e498346d96360e4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f7a514f271d12cd5f2f767259552cb') in 0.048739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_rare_mimic.fbx
+  artifactKey: Guid(6520c37cf3970a842968bd6070ad18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_rare_mimic.fbx using Guid(6520c37cf3970a842968bd6070ad18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53c05795ea4f529cd11f690994c588a') in 0.050445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/plateFull.fbx
+  artifactKey: Guid(fb82450a5c054bc42a9d4c6315285e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/plateFull.fbx using Guid(fb82450a5c054bc42a9d4c6315285e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12857cf3deb4ee6f2036aad2f3ab9e02') in 0.046381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_wood.fbx
+  artifactKey: Guid(c52eac29d5470fe408aafeba01dc0e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_wood.fbx using Guid(c52eac29d5470fe408aafeba01dc0e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2a93705ab72701a372fb4ec0ebeb8f') in 0.039639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/mug.fbx
+  artifactKey: Guid(12eacd2e14067ae468e311b585e6c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/mug.fbx using Guid(12eacd2e14067ae468e311b585e6c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8eb1a646c8f0b8a4f40f2e051999ba4') in 0.045364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_common.fbx
+  artifactKey: Guid(6c24c7993b13fa049ba5615119f88a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_common.fbx using Guid(6c24c7993b13fa049ba5615119f88a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6c4492235b4d4dd57d7ffdc1d036ec') in 0.049052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chest_common_empty.fbx
+  artifactKey: Guid(b614fe93a3f39384fbac13a7065c5c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chest_common_empty.fbx using Guid(b614fe93a3f39384fbac13a7065c5c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf02581c712e9835ef6c680cf656979d') in 0.081506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_uncommon_mimic.fbx
+  artifactKey: Guid(2db2c539ac94fd04c98a13fbf4ba54b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_uncommon_mimic.fbx using Guid(2db2c539ac94fd04c98a13fbf4ba54b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe92e87e022dd7abc1df793c3806911') in 0.078543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseWide_broken.fbx
+  artifactKey: Guid(9eeba99187b07e0458ace1dc24a37d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseWide_broken.fbx using Guid(9eeba99187b07e0458ace1dc24a37d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d97a68f662179680a4200ce00576064') in 0.049326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseFilled_broken.fbx
+  artifactKey: Guid(d621dc306c8777b42b489a949f3fbaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseFilled_broken.fbx using Guid(d621dc306c8777b42b489a949f3fbaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737542c1abc81cbcd9c5c9dc1beeac3a') in 0.116179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookF.fbx
+  artifactKey: Guid(6dd3752e8c45298499c28a53984b8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookF.fbx using Guid(6dd3752e8c45298499c28a53984b8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c94829b875735409bf17f1041c1257') in 0.053329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/hammer_uncommon.fbx
+  artifactKey: Guid(6e86a6b2678b3cd45a9023695d3d6ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/hammer_uncommon.fbx using Guid(6e86a6b2678b3cd45a9023695d3d6ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372b2616f824c2d7b10574b59eb0cf68') in 0.173305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_shatteredBricks.fbx
+  artifactKey: Guid(71fb6d0553c94f94aa07faf826b8f990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_shatteredBricks.fbx using Guid(71fb6d0553c94f94aa07faf826b8f990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce814b33c00983a54a219c5d5efac9f9') in 0.074684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookOpenB.fbx
+  artifactKey: Guid(ce4cf6cfe43143f438129b29fcb4cf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookOpenB.fbx using Guid(ce4cf6cfe43143f438129b29fcb4cf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b5ab3ac0f4929b611a2c492e6422be') in 0.092974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseWideFilled_broken.fbx
+  artifactKey: Guid(90dd7b9d36129bc4f89d981920e11ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/bookcaseWideFilled_broken.fbx using Guid(90dd7b9d36129bc4f89d981920e11ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989b12fe49ab0fc20ef8c39df2d6e8b7') in 0.098951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/crateDark.fbx
+  artifactKey: Guid(5d509dcb50c419c4cb5d1b85c01f517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/crateDark.fbx using Guid(5d509dcb50c419c4cb5d1b85c01f517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee19d8d51a582dfbb12a1314f25144d') in 0.043430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_rare.fbx
+  artifactKey: Guid(f1bfd563b4a261047b88be56c86b5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_rare.fbx using Guid(f1bfd563b4a261047b88be56c86b5b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ab5a1ba32978aac4eef431231a950b') in 0.038419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/cratePlatform_large.fbx
+  artifactKey: Guid(f13541a3d3c49b74e8429f2be600053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/cratePlatform_large.fbx using Guid(f13541a3d3c49b74e8429f2be600053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1bc2767b91d51b105dddf150574fda') in 0.043126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chest_common.fbx
+  artifactKey: Guid(f9d7019eda206dc4091224408c0ef9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chest_common.fbx using Guid(f9d7019eda206dc4091224408c0ef9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1489b5a76150e5260695aceb76ce8920') in 0.059019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/cratePlatform_medium.fbx
+  artifactKey: Guid(77ab7e20d93205f4e8d083629f920346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/cratePlatform_medium.fbx using Guid(77ab7e20d93205f4e8d083629f920346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d0104493ea952d8044ff5bffb5141b') in 0.045390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/dagger_rare.fbx
+  artifactKey: Guid(70537fe064d352746917978ee17d4990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/dagger_rare.fbx using Guid(70537fe064d352746917978ee17d4990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908319883f050e8da1d4b6b7d8a51257') in 0.074038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_tilesLarge.fbx
+  artifactKey: Guid(dd2e4bccc914f1f4a8aeab477626788d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_tilesLarge.fbx using Guid(dd2e4bccc914f1f4a8aeab477626788d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4235b81dbf0500112bb732d6fed03891') in 0.040862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/hammer_rare.fbx
+  artifactKey: Guid(8934a5dc227b29a46aa18231c206f25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/hammer_rare.fbx using Guid(8934a5dc227b29a46aa18231c206f25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5418df164a172478938b7be8aa5f931') in 0.060272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/coinsMedium.fbx
+  artifactKey: Guid(c008c9e43e3075643872bee0962e87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/coinsMedium.fbx using Guid(c008c9e43e3075643872bee0962e87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ee2c27ee69fdd41317abde7eb82ed5') in 0.047135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/door_gate.fbx
+  artifactKey: Guid(884d68afc9f3259429eee72ac1040d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/door_gate.fbx using Guid(884d68afc9f3259429eee72ac1040d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0680c35ee1069f7f6ca667a4d87793e2') in 0.039414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/axe_uncommon.fbx
+  artifactKey: Guid(a41793535890a484fb7182d8b25df08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/axe_uncommon.fbx using Guid(a41793535890a484fb7182d8b25df08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afb6cd54d3ad895f2f348aa3f90abe1') in 0.059103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/axe_common.fbx
+  artifactKey: Guid(74f9f577e34fd6c44ae543f64c51d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/axe_common.fbx using Guid(74f9f577e34fd6c44ae543f64c51d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950e078b2f2a51977513019468022a4c') in 0.042880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/plate.fbx
+  artifactKey: Guid(58e7d8d255e54ef438323555305488b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/plate.fbx using Guid(58e7d8d255e54ef438323555305488b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3094c2eef3ecd928402117ed338bb888') in 0.031407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_woodLeft.fbx
+  artifactKey: Guid(76719da156ddd184a925900e4e4f3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/floorDecoration_woodLeft.fbx using Guid(76719da156ddd184a925900e4e4f3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb6cec038dbd9838a170a7f1eba0885') in 0.034797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/potA_decorated.fbx
+  artifactKey: Guid(02e2062885e0fc5409182c0bd05cf55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/potA_decorated.fbx using Guid(02e2062885e0fc5409182c0bd05cf55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef08829b1ba70a7a88f0474a9dc49d1') in 0.036006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_uncommon.fbx
+  artifactKey: Guid(871cc8fbb21518c479a688d76bb56d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/chestTop_uncommon.fbx using Guid(871cc8fbb21518c479a688d76bb56d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3431330e29ca1bdb7dc08c148df9af14') in 0.046202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/axeDouble_uncommon.fbx
+  artifactKey: Guid(2b26603a8fa64814480e50f1a86b614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/axeDouble_uncommon.fbx using Guid(2b26603a8fa64814480e50f1a86b614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196a2d4db2281cdd7428981761c78f13') in 0.047239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.938615 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/potC.fbx
+  artifactKey: Guid(4f6a4432b4532814498ef81bfd8a2ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/potC.fbx using Guid(4f6a4432b4532814498ef81bfd8a2ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f671e8e0ecdd53400c7d380e9fa7b1') in 0.027648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/quiver_full.fbx
+  artifactKey: Guid(76f861f144dfd2346b1ea45ba4f63f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/quiver_full.fbx using Guid(76f861f144dfd2346b1ea45ba4f63f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd9b1f8848b03088a4e8436156e529') in 0.051709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/quiver_half_full.fbx
+  artifactKey: Guid(b4436621803e7cb4ea0131e306525723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/quiver_half_full.fbx using Guid(b4436621803e7cb4ea0131e306525723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dce090bc82842459bd3d194a5884405') in 0.048932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionSmall_red.fbx
+  artifactKey: Guid(ed944c8ab7d41e743b0a8f45c9cbd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionSmall_red.fbx using Guid(ed944c8ab7d41e743b0a8f45c9cbd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd8b7aaae7720f2684745f0cca09546') in 0.238116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/pots.fbx
+  artifactKey: Guid(8e42c0a0be2eaa94fb9773d658a7446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/pots.fbx using Guid(8e42c0a0be2eaa94fb9773d658a7446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8bd04053aa57b4cc36e324dcbf9001') in 0.038746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_high.fbx
+  artifactKey: Guid(ba246a736bc422443a04a6f563e3d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_high.fbx using Guid(ba246a736bc422443a04a6f563e3d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3073af50d90fd5c1dea19dc252a18f') in 0.042248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionSmall_green.fbx
+  artifactKey: Guid(f732898ae9e77f04f94e0cff365e6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionSmall_green.fbx using Guid(f732898ae9e77f04f94e0cff365e6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75404f608d485319803dd80887a3559f') in 0.056379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionMedium_red.fbx
+  artifactKey: Guid(3cfa3bd1d31ac284aa39af21f39c0bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/potionMedium_red.fbx using Guid(3cfa3bd1d31ac284aa39af21f39c0bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f3dcc501c88de121c73cc3e0ee9d43') in 0.062343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154670 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_high_cornerBoth.fbx
+  artifactKey: Guid(fc820a6c44d6c8040aa47ae3a069fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_high_cornerBoth.fbx using Guid(fc820a6c44d6c8040aa47ae3a069fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cdb052a46fb8adea67177a1ee2a88e') in 0.023467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high_cornerLeft.fbx
+  artifactKey: Guid(4ab1c8c436085b8419db6d044e1a8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high_cornerLeft.fbx using Guid(4ab1c8c436085b8419db6d044e1a8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9cd3a95faeab188bffafff27a0cdee') in 0.028768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium.fbx
+  artifactKey: Guid(c9116f9d1bcdddb49a5f227d0908cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium.fbx using Guid(c9116f9d1bcdddb49a5f227d0908cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9b68186294c8220631601ed53ba70c') in 0.030839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium_cornerLeft.fbx
+  artifactKey: Guid(569584fc8703622438a062d417c5fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium_cornerLeft.fbx using Guid(569584fc8703622438a062d417c5fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b7aa0bb7142313eeb1de5213f747a') in 0.027280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium_railing.fbx
+  artifactKey: Guid(7aacbeb0bf69f0b47a9766e82accd33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_medium_railing.fbx using Guid(7aacbeb0bf69f0b47a9766e82accd33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353e00f1a3af6a157f9f821c892ed494') in 0.033347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_low_cornerLeft.fbx
+  artifactKey: Guid(aceb499f6125ef847b034baab5e44fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_low_cornerLeft.fbx using Guid(aceb499f6125ef847b034baab5e44fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ebb74bec17546dc95972c7674d76bf') in 0.028846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_low_railing.fbx
+  artifactKey: Guid(e72de01807cf37148a0cb76d8bad4493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_low_railing.fbx using Guid(e72de01807cf37148a0cb76d8bad4493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c28d81e7c862a9535cdf6bd25cfa339') in 0.037644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high.fbx
+  artifactKey: Guid(eca4aa6c866f90e4d84a0525872af3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high.fbx using Guid(eca4aa6c866f90e4d84a0525872af3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53edfdeea836f852cb364e3ada9acc9') in 0.033510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008857 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high_cornerRight.fbx
+  artifactKey: Guid(6aafde59ec301f74f8732ce0ba5bb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_high_cornerRight.fbx using Guid(6aafde59ec301f74f8732ce0ba5bb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e61eae4693431bb2bd01aa97574279d') in 0.024263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low_cornerLeft.fbx
+  artifactKey: Guid(83c2c2cec5835fa48b2beb98454a2679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low_cornerLeft.fbx using Guid(83c2c2cec5835fa48b2beb98454a2679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7cffb07329f523a1936d087dbf8bf0') in 0.028907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low.fbx
+  artifactKey: Guid(7a7ab647786d2b44fb1343bd5f26d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low.fbx using Guid(7a7ab647786d2b44fb1343bd5f26d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8ba3f24395ba2d90cf907893616b77') in 0.027549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_cornerRight.fbx
+  artifactKey: Guid(51e11a1300027f349b2b81d713bd62ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_cornerRight.fbx using Guid(51e11a1300027f349b2b81d713bd62ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b5097c8398b10c7e3a1d5169aa6438') in 0.030052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_railing.fbx
+  artifactKey: Guid(cacf0f75db57a7f4d928e714633137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_railing.fbx using Guid(cacf0f75db57a7f4d928e714633137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7308ab21fbc835a0d0995a78a2401fe') in 0.029332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium.fbx
+  artifactKey: Guid(c35cc0c5e68948e459007131fa35ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium.fbx using Guid(c35cc0c5e68948e459007131fa35ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c00fffab105a76ced16e9a6240c6ed') in 0.030932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low_railing.fbx
+  artifactKey: Guid(80053de90950a9e4f90e29b80691e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_low_railing.fbx using Guid(80053de90950a9e4f90e29b80691e91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee2857a068c423a0de0b265503b31ab') in 0.028459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_railing_long.fbx
+  artifactKey: Guid(7ba34eef9e176564cae24e0a32404980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_small_medium_railing_long.fbx using Guid(7ba34eef9e176564cae24e0a32404980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad154f21c48a854556445c9b7b21363d') in 0.031833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.608316 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_stairs.fbx
+  artifactKey: Guid(c1db949812c97c04d8c68e750a6496f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/scaffold_stairs.fbx using Guid(c1db949812c97c04d8c68e750a6496f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d393f187498e8d39404f636c44abe59') in 0.025537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/staff_rare.fbx
+  artifactKey: Guid(0fb7018933aac064a97dc727ba5e4637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/staff_rare.fbx using Guid(0fb7018933aac064a97dc727ba5e4637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575279a68726ba3a5c189c0f4cf4d9d7') in 0.046380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes_shallow.fbx
+  artifactKey: Guid(be131cb121f44814680b473cc7b23cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes_shallow.fbx using Guid(be131cb121f44814680b473cc7b23cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f38407e82053cbb8f4c357ee6988b') in 0.049540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableMedium.fbx
+  artifactKey: Guid(13a6758b50ddcd64f894204f55d40d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableMedium.fbx using Guid(13a6758b50ddcd64f894204f55d40d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471d807e03532f18eb2e16139cb49196') in 0.031613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/stairs.fbx
+  artifactKey: Guid(c74d9593ddc2af247b50edf26fea215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/stairs.fbx using Guid(c74d9593ddc2af247b50edf26fea215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ce13802bc7c398e37005dea6f5575f') in 0.030826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes.fbx
+  artifactKey: Guid(98d70875a5189834896648e3b69652e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes.fbx using Guid(98d70875a5189834896648e3b69652e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc421477f704e314418e4a9385460933') in 0.039182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_largeCrackedB.fbx
+  artifactKey: Guid(4ec3dc380dd64134f88876ea04217448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_largeCrackedB.fbx using Guid(4ec3dc380dd64134f88876ea04217448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98578f57874ba14fe73aae00caf29a73') in 0.039302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_large.fbx
+  artifactKey: Guid(a4edf0aea12f17143b58839a0580a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_large.fbx using Guid(a4edf0aea12f17143b58839a0580a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf3da35a8af73e0c423f0490a5d99ad') in 0.030275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/shield_uncommon.fbx
+  artifactKey: Guid(25e87a902b8b9d249981dbbd4ac5a784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/shield_uncommon.fbx using Guid(25e87a902b8b9d249981dbbd4ac5a784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be22c76e7ba7bac1dfbf5f9fc4b224de') in 0.045401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/spellBook.fbx
+  artifactKey: Guid(679e3238398d8c445bb1038f87950111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/spellBook.fbx using Guid(679e3238398d8c445bb1038f87950111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6142d39399371ba69cac51f4677aadd7') in 0.050404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_medium.fbx
+  artifactKey: Guid(848c23744c4260747a0fdbc60873b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileBrickB_medium.fbx using Guid(848c23744c4260747a0fdbc60873b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b3415402f6d4b5337ba78aeeec3d7') in 0.027318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/torchWall.fbx
+  artifactKey: Guid(1731f0736d5e3744eae68985e7feec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/torchWall.fbx using Guid(1731f0736d5e3744eae68985e7feec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410fae189dcef6618d6ffcafd883eaab') in 0.049762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_window.fbx
+  artifactKey: Guid(0bff7c6702fcaf24587d75c6b6efa64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_window.fbx using Guid(0bff7c6702fcaf24587d75c6b6efa64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0913ec63c77fbf53f0c47f09cabd42e') in 0.037756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallDecorationA.fbx
+  artifactKey: Guid(0e11641bf6d29a94a9bde8e2dd42f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallDecorationA.fbx using Guid(0e11641bf6d29a94a9bde8e2dd42f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969740e21ffe146e923f81d42bc7b276') in 0.035885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_decorationA.fbx
+  artifactKey: Guid(6b3ea793af8061d479e6f7bd2703726c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_decorationA.fbx using Guid(6b3ea793af8061d479e6f7bd2703726c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1669f8fe124be2d9b3d0c16de87b3411') in 0.040218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_windowGate.fbx
+  artifactKey: Guid(cafe066313737c642bdfa072ec485bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_windowGate.fbx using Guid(cafe066313737c642bdfa072ec485bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b779b7fa4e5e2217f4f1410ea8a026') in 0.045671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_end.fbx
+  artifactKey: Guid(73dc8fdac2d48944fafc65b708aa0e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_end.fbx using Guid(73dc8fdac2d48944fafc65b708aa0e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f67a3fa3fa5de8c211cda3af9009d3') in 0.032549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_decorationB.fbx
+  artifactKey: Guid(aac9a2df501488b45a6f08b0475ad744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_decorationB.fbx using Guid(aac9a2df501488b45a6f08b0475ad744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2422eeda6f9bfcb929fd2285f9ae35') in 0.036667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_broken.fbx
+  artifactKey: Guid(5b73882f5c6a6924ca8b516363f41d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_broken.fbx using Guid(5b73882f5c6a6924ca8b516363f41d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b8fa05940da9eade98766c250981b2') in 0.039202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_broken.fbx
+  artifactKey: Guid(0a5dc8120f1d57147999e6e7d16daad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_broken.fbx using Guid(0a5dc8120f1d57147999e6e7d16daad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f00a01b59f27eb08ff324adfae1e92') in 0.039419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_gate.fbx
+  artifactKey: Guid(e5fa853af38b956498fe2f38fdef4b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_gate.fbx using Guid(e5fa853af38b956498fe2f38fdef4b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b536dc2514a397f35de0e0333a83ead') in 0.039244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableSmall.fbx
+  artifactKey: Guid(d76f8b0ad5b7e99429a5012a7aa3df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableSmall.fbx using Guid(d76f8b0ad5b7e99429a5012a7aa3df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe86b1f08d59b8c83cbf0337cf94355') in 0.027612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_windowGate.fbx
+  artifactKey: Guid(4a366a05eeb2285429bc8c3c94afe8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall_windowGate.fbx using Guid(4a366a05eeb2285429bc8c3c94afe8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6f56691313633608479124dc1bcffb') in 0.042403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableLarge.fbx
+  artifactKey: Guid(9f1983cfdb5a9314fb7d07f5ed356aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tableLarge.fbx using Guid(9f1983cfdb5a9314fb7d07f5ed356aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0503a70f23e6d1727f5f998225f8b5') in 0.028975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/stool.fbx
+  artifactKey: Guid(a9fcfd9a456e14c46bf50ba8c2e428bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/stool.fbx using Guid(a9fcfd9a456e14c46bf50ba8c2e428bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f035c2fbca52678d96d925cfeb58b2df') in 0.027330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes_large.fbx
+  artifactKey: Guid(55b4208a1b0c0cd44835ff83cdee3544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/tileSpikes_large.fbx using Guid(55b4208a1b0c0cd44835ff83cdee3544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5295f7c642ed2a8d70f9331074c376') in 0.040423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall.fbx
+  artifactKey: Guid(945dbb11556429148906fcce18e37219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wall.fbx using Guid(945dbb11556429148906fcce18e37219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1139ef054a6f7c9c542212a52104b7d') in 0.037987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_door.fbx
+  artifactKey: Guid(4871e2fb50fbc6d4bac02bb75ec10c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Dungeon Pack 1.0/Models/fbx/wallSingle_door.fbx using Guid(4871e2fb50fbc6d4bac02bb75ec10c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332dce8ece5474af33b385a94a5448a1') in 0.038540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 732.684841 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.011072 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007450 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (21.0 MB). Loaded Objects now: 4474.
+Memory consumption went from 192.1 MB to 171.0 MB.
+Total: 4.713300 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.151400 ms MarkObjects: 2.043000 ms  DeleteObjects: 2.254400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 425.537363 seconds.
+  path: Assets/AgentKnight.cs
+  artifactKey: Guid(2145cd30905c3754db4afebf50cf3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AgentKnight.cs using Guid(2145cd30905c3754db4afebf50cf3af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c397d9e15887102374b4bf891121c50') in 0.015742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4478.
+Memory consumption went from 192.1 MB to 171.0 MB.
+Total: 5.172300 ms (FindLiveObjects: 0.347100 ms CreateObjectMapping: 0.125500 ms MarkObjects: 2.231600 ms  DeleteObjects: 2.467000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4482.
+Memory consumption went from 192.1 MB to 171.1 MB.
+Total: 5.773200 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.413500 ms  DeleteObjects: 2.904700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008757 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4486.
+Memory consumption went from 192.1 MB to 171.1 MB.
+Total: 6.658800 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.658800 ms MarkObjects: 2.919200 ms  DeleteObjects: 2.758400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005619 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (775ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4490.
+Memory consumption went from 192.1 MB to 171.1 MB.
+Total: 6.118300 ms (FindLiveObjects: 0.349900 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.980400 ms  DeleteObjects: 2.662100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4494.
+Memory consumption went from 192.1 MB to 171.1 MB.
+Total: 4.569600 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.234900 ms  DeleteObjects: 1.950500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009058 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4498.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 5.199600 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.263900 ms  DeleteObjects: 2.562300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007910 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4502.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 4.785400 ms (FindLiveObjects: 0.278300 ms CreateObjectMapping: 0.109800 ms MarkObjects: 2.232400 ms  DeleteObjects: 2.163700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4506.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 5.345800 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.386400 ms  DeleteObjects: 2.538100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008557 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4510.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 4.765100 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.360300 ms  DeleteObjects: 1.955100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004904 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4514.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 4.973900 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.123500 ms MarkObjects: 2.611900 ms  DeleteObjects: 1.965800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4518.
+Memory consumption went from 192.3 MB to 171.3 MB.
+Total: 7.052300 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.142000 ms MarkObjects: 2.481100 ms  DeleteObjects: 4.080900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4522.
+Memory consumption went from 192.4 MB to 171.3 MB.
+Total: 4.770500 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.160900 ms  DeleteObjects: 2.182300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006373 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4526.
+Memory consumption went from 192.4 MB to 171.3 MB.
+Total: 5.037400 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.172200 ms  DeleteObjects: 2.382400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4530.
+Memory consumption went from 192.4 MB to 171.3 MB.
+Total: 5.264600 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 2.151100 ms  DeleteObjects: 2.698300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4534.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 6.192400 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.143100 ms MarkObjects: 2.333700 ms  DeleteObjects: 3.365000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4538.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 7.970200 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.669800 ms MarkObjects: 3.282800 ms  DeleteObjects: 3.641300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009214 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4542.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 4.712900 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.390600 ms  DeleteObjects: 1.948200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4546.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 5.697700 ms (FindLiveObjects: 0.324200 ms CreateObjectMapping: 0.128200 ms MarkObjects: 2.837300 ms  DeleteObjects: 2.407000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4550.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 4.911300 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.464900 ms  DeleteObjects: 1.986400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4554.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 5.158400 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.230500 ms  DeleteObjects: 2.489000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4558.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 5.762600 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.156400 ms MarkObjects: 2.440600 ms  DeleteObjects: 2.763200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006971 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4562.
+Memory consumption went from 192.4 MB to 171.4 MB.
+Total: 5.479900 ms (FindLiveObjects: 0.367700 ms CreateObjectMapping: 0.135800 ms MarkObjects: 2.380600 ms  DeleteObjects: 2.594200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4566.
+Memory consumption went from 192.5 MB to 171.4 MB.
+Total: 5.093300 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.109800 ms MarkObjects: 2.663200 ms  DeleteObjects: 1.984300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4570.
+Memory consumption went from 192.5 MB to 171.4 MB.
+Total: 4.914400 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.450100 ms  DeleteObjects: 2.090900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4574.
+Memory consumption went from 192.5 MB to 171.4 MB.
+Total: 4.997300 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.123700 ms MarkObjects: 2.169300 ms  DeleteObjects: 2.429600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004603 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4578.
+Memory consumption went from 192.5 MB to 171.5 MB.
+Total: 4.999200 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.168000 ms MarkObjects: 2.155300 ms  DeleteObjects: 2.255800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008339 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4582.
+Memory consumption went from 192.5 MB to 171.5 MB.
+Total: 5.173700 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.113700 ms MarkObjects: 2.108400 ms  DeleteObjects: 2.615300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4586.
+Memory consumption went from 192.5 MB to 171.5 MB.
+Total: 4.773200 ms (FindLiveObjects: 0.295300 ms CreateObjectMapping: 0.122600 ms MarkObjects: 2.149500 ms  DeleteObjects: 2.204400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gob-boi\Documents\GitHub\ML-Agents-Knight-Dual\Knight Dual AI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (21.0 MB). Loaded Objects now: 4590.
+Memory consumption went from 192.5 MB to 171.5 MB.
+Total: 4.824300 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.151200 ms MarkObjects: 2.250400 ms  DeleteObjects: 2.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
