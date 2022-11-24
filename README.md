@@ -1,6 +1,6 @@
 # ML-Agents Knight Duel
  
- Knight Dual a tiny machine learning zero-player game based on the Unity ML-Agents framework. This is a hobby projekt for learning about RL and Deep Learning.
+ Knight Duel is a tiny machine learning zero-player game based on the Unity ML-Agents framework. This is a hobby projekt for learning about RL and Deep Learning.
  
 ## How it works?
  
