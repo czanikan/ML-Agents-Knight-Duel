@@ -6,6 +6,11 @@
  
  Both knights are RL agents. They only know how to move in 4 direction and they are able to rotate. They can hold different weapons and the weapons rotate with the character. The main goal of the game to defeat the other knight agent by hitting it with the weapon a few time. They also have a tiny shield for self-defense. If one of them hit the enemy then gets reward. If defeat the enemy then also gets reward. Reinforcement learning agents learn from the rewards.
  
+## Learning
+
+ In the first version both agents have the same weapons and stats. After 30 minutes of learning they are learn to fight with each other, put they only use the same technic and not really take advantage of the shield potential. 
+ * [Alt text](https://github.com/czanikan/ML-Agents-Knight-Duel/blob/main/gifs/KnightDuel30min.gif)
+ 
 ## Thanks ❤
  
  This project build with the [KayKit Dungeon Pack](https://kaylousberg.itch.io/kaykit-dungeon) made by Kay Lousberg. Special thanks to him for the awesome assets.
