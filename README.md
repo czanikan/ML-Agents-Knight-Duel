@@ -9,7 +9,7 @@
 ## Learning
 
  In the first version both agents have the same weapons and stats. After 30 minutes of learning they are learn to fight with each other, put they only use the same technic and not really take advantage of the shield potential. 
- ![Alt text](https://github.com/czanikan/ML-Agents-Knight-Duel/blob/main/gifs/KnightDuel30min.gif#right)
+ ![Alt text](https://github.com/czanikan/ML-Agents-Knight-Duel/blob/main/gifs/KnightDuel30min.gif#center)
  
 ## Thanks ❤
  
