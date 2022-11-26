@@ -39,4 +39,4 @@ I'm also interested in Machine Learning and 3D modeling.
 
 
 ## 🔗 Links
-* [Twitter](https://www.twitter.com/lhteam)
+* [Twitter](https://twitter.com/LazyHamsters)
