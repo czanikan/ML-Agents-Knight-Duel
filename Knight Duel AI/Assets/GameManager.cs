@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
         if (Agents[0].gameObject.name != deadKnightName)
         {
             Agents[0].SetReward(2f);
-            Agents[1].SetReward(-2f);
+            Agents[1].SetReward(-5f);
 
             Debug.Log(Agents[0].gameObject.name + " won the round!");
         }
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
         if (Agents[1].gameObject.name != deadKnightName)
         {
             Agents[1].SetReward(2f);
-            Agents[0].SetReward(-2f);
+            Agents[0].SetReward(-5f);
 
             Debug.Log(Agents[1].gameObject.name + " won the round!");
         }
