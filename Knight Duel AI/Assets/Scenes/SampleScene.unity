@@ -4248,7 +4248,7 @@ PrefabInstance:
     - target: {fileID: 5247908396777629364, guid: f568cf2aff69fb4479990dc6297ae9b8, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 8bda45dcb0237c7418a42bab2902062c, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 8294052831f8b9a4aa061067b48853ea, type: 3}
     - target: {fileID: 5247908396777629372, guid: f568cf2aff69fb4479990dc6297ae9b8, type: 3}
       propertyPath: m_Name
       value: BlueKnight
